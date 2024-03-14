@@ -1,0 +1,65 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin-top: 1% !important;
+    margin-bottom: 2% !important;
+    padding-bottom: 1% !important;
+}
+
+:root {
+    --main-color: #434E5E;
+}
+
+.header-color {
+    background: var(--main-color);
+}
+
+
+.progress-color {
+    background-color: var(--main-color);
+}
+
+
+.progress-height {
+    height: 10px;
+}
+
+/* Section Styling */
+
+.title-color {
+    color: var(--main-color);
+}
+
+
+.line {
+    background-color: var(--main-color);
+    height: 1px;
+}
+
+
+.custom-list {
+    list-style-type: circle;
+}
+
+.sq,
+.sq-sec {
+    margin-left: 1%;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.sq {
+    width: 15%;
+    color: white;
+    font-size: .6rem;
+    background-color: var(--main-color);
+
+}
+
+.sq-sec {
+    margin-bottom: 2%;
+    background-color: rgba(0, 0, 0, 0.04);
+    width: 25%;
+    font-size: .7rem;
+    color: var(--main-color);
+}
