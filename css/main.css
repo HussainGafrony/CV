@@ -1,8 +1,5 @@
 body {
     font-family: 'Oswald', sans-serif;
-    margin-top: 1% !important;
-    margin-bottom: 2% !important;
-    padding-bottom: 1% !important;
 }
 
 :root {
@@ -40,26 +37,11 @@ body {
     list-style-type: circle;
 }
 
-.sq,
-.sq-sec {
-    margin-left: 1%;
-    padding: 1%;
-    border-radius: 5px;
-    text-align: center;
-}
 
-.sq {
-    width: 15%;
-    color: white;
-    font-size: .6rem;
+.bedge-bg-color {
     background-color: var(--main-color);
-
 }
-
-.sq-sec {
-    margin-bottom: 2%;
-    background-color: rgba(0, 0, 0, 0.04);
-    width: 25%;
-    font-size: .7rem;
+.bedge-color {
     color: var(--main-color);
 }
+
